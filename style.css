@@ -1,0 +1,77 @@
+nav {
+    background-color: green;
+    overflow: hidden;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+nav .left{
+    float: left;
+}
+nav .right{
+    float: right;
+}
+nav a {
+    margin: 20px;
+    color: White;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a:hover {
+    background-color: rgb(209, 132, 31);
+    color: white;
+  }
+.active {
+    background-color: black;
+}
+div.text {
+    text-align: center;
+  }
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    border: 1px solid black;
+    padding: 50px;
+}
+form.signup {
+    border: 0;
+}
+form.signup img {
+    margin-left: 25px;
+}
+form input {
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+form #submit {
+    width: 100%;
+    background-color: green;
+    color: white;
+    margin-left: 8px;
+}
+#errMsg {
+    color: red;
+    text-align: center;
+    text-transform: capitalize;
+}
+form #submit:hover {
+    cursor: pointer;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+table td {
+    padding: 5px;
+}
+div.about {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 10px;
+}

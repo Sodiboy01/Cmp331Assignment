@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <nav>
+            <div class="left">
+                <a href="index.html">Home</a>
+            </div>
+        <div class="right">
+             <a href="login.html" class="active">Login</a>
+             <a href="signup.html">Sign Up</a>
+             <a href="about.html">About</a>
+        </div>
+    </nav>
+    <form class="login" action="display1.html" onsubmit="return validateLoginForm()">
+        <img src="fudma_logo.jpg" class="logo"><br>
+        <div id="errMsg"></div>
+        <input name="user" type="text" placeholder="Enter UserName" id="user"><br>
+        <input name="pass" type="password" placeholder="Enter PassWord" id="pass"><br>
+        <input type="submit" id="submit" value="Login">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
